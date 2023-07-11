@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a8ec8d90-0d22-449a-974a-2665da736fd4" name="device-filter">
+        <fileTransfer rootFolder="/root/device-filter" accessType="SFTP" host="172.35.0.31" port="22" sshConfigId="b83bbcb5-1def-4be2-b96f-c8af124f4f9b" sshConfig="root@172.35.0.31:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

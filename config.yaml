@@ -1,0 +1,6 @@
+version: v1
+configs:
+  test:
+    - devices: [0]
+      device-filter: ["0x20F510DE"]
+
