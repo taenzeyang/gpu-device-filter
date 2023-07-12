@@ -14,7 +14,7 @@ func TestApply(t *testing.T) {
 		t.Errorf("error parsing config file: %v", err)
 	}
 
-	t.Logf("Selecting specific config...")
+	t.Logf("Selecting specific config...v1.0.1")
 	migConfig, err := GetSelectedMigConfig(f, spec)
 	if err != nil {
 		t.Errorf("error selecting config: %v", err)
