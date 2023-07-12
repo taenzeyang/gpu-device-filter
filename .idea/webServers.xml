@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="a8ec8d90-0d22-449a-974a-2665da736fd4" name="device-filter">
-        <fileTransfer rootFolder="/root/device-filter" accessType="SFTP" host="172.35.0.31" port="22" sshConfigId="b83bbcb5-1def-4be2-b96f-c8af124f4f9b" sshConfig="root@172.35.0.31:22 password">
+      <webServer id="96c40607-d269-4eb9-aa86-fc1c9159f52d" name="device">
+        <fileTransfer rootFolder="/root/gpu-device-filter" accessType="SFTP" host="172.35.0.31" port="22" sshConfigId="b83bbcb5-1def-4be2-b96f-c8af124f4f9b" sshConfig="root@172.35.0.31:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
